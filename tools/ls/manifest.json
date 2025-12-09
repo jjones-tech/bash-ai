@@ -1,0 +1,22 @@
+{
+  "name": "ls",
+  "description": "Lists files and directories in a specified path. Returns names, types, and sizes.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "path": {
+        "type": "string",
+        "description": "The directory path to list. Defaults to current directory if not specified."
+      },
+      "all": {
+        "type": "boolean",
+        "description": "Include hidden files (starting with dot). Defaults to false."
+      },
+      "long": {
+        "type": "boolean",
+        "description": "Use long listing format with details. Defaults to false."
+      }
+    },
+    "required": []
+  }
+}

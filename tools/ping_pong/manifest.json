@@ -1,0 +1,14 @@
+{
+  "name": "ping_pong",
+  "description": "A test tool that echoes back the message it receives. Use this to verify tool calling works.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "message": {
+        "type": "string",
+        "description": "The message to echo back."
+      }
+    },
+    "required": ["message"]
+  }
+}

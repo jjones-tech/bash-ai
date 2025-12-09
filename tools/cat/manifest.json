@@ -1,0 +1,19 @@
+{
+  "name": "cat",
+  "description": "Concatenates and displays the contents of one or more files.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "files": {
+        "type": "array",
+        "items": {"type": "string"},
+        "description": "List of file paths to concatenate and display."
+      },
+      "number_lines": {
+        "type": "boolean",
+        "description": "If true, number all output lines. Defaults to false."
+      }
+    },
+    "required": ["files"]
+  }
+}

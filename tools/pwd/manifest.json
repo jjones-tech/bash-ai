@@ -1,0 +1,9 @@
+{
+  "name": "pwd",
+  "description": "Returns the current working directory path.",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

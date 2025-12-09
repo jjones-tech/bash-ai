@@ -1,0 +1,26 @@
+{
+  "name": "tree",
+  "description": "Displays directory structure as a tree. Shows files and subdirectories recursively.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "path": {
+        "type": "string",
+        "description": "The directory path to display. Defaults to current directory."
+      },
+      "max_depth": {
+        "type": "integer",
+        "description": "Maximum depth to descend into directories. Defaults to 3."
+      },
+      "show_hidden": {
+        "type": "boolean",
+        "description": "Include hidden files (starting with dot). Defaults to false."
+      },
+      "dirs_only": {
+        "type": "boolean",
+        "description": "Only show directories, not files. Defaults to false."
+      }
+    },
+    "required": []
+  }
+}

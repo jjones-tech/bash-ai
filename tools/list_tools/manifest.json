@@ -1,0 +1,9 @@
+{
+  "name": "list_tools",
+  "description": "Lists all available tools and their descriptions.",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

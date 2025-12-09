@@ -1,0 +1,14 @@
+{
+  "name": "read_file",
+  "description": "Reads the content of a specified file from the filesystem.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "filepath": {
+        "type": "string",
+        "description": "The absolute path to the file to read."
+      }
+    },
+    "required": ["filepath"]
+  }
+}

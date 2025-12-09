@@ -1,0 +1,14 @@
+{
+  "name": "search",
+  "description": "Search the internet for current information, news, or any topic. Use this when you need up-to-date info.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "query": {
+        "type": "string",
+        "description": "The search query"
+      }
+    },
+    "required": ["query"]
+  }
+}
